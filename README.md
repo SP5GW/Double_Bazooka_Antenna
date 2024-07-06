@@ -83,7 +83,7 @@ $D = (lambda(in wire) / 2 - lambda(in coax)/2)/2 = (1/4)*(lambda(in wire) - lamb
 
 where
 
-$lambda = (c * Vf) / f$
+Wave length in environment characterized by velocity factor $Vf$: $lambda = (c * Vf) / f$
 
 Wire extension length: $D = (c / (4 * f)) * (1 - Vfcoax)$ 
 
