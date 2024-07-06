@@ -45,6 +45,15 @@ Design practical considerations:
 
 Avoid any coax that has a double shield with a foil wrapping. In my case I have used cheap RG-58. According to [1] using coax with larger diameter would lead to broader bandwidth - I have not experimented with this claim.
 
+Use insulation remover when removing coax outer jacket (about 4 cm) so shield is left in tact. 
+
+Cut the shielding in the center and separate it into two braids. Connect one of the two braids to the center wire of the feed line, and the second braid the feed line shield.
+
+Do not cut or damage the center dielectric of the coax since it would weaken antenna structure. 
+
+<p align="center">
+<img src="./img/dbz_feed_point.jpg" width="400" height="400"/>
+</p>
 
 
 ## Mounting options:
