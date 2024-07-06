@@ -47,12 +47,17 @@ Avoid any coax that has a double shield with a foil wrapping. In my case I have 
 
 Use insulation remover when removing coax outer jacket (about 4 cm) so shield is left in tact. 
 
+<p align="center">
+<img src="./img/Isulation_cutter.jpg" width="300" height="300"/>
+</p>
+
 Cut the shielding in the center and separate it into two braids. Connect one of the two braids to the center wire of the feed line, and the second braid the feed line shield.
 
 Do not cut or damage the center dielectric of the coax since it would weaken antenna structure. 
 
 <p align="center">
-<img src="./img/dbz_feed_point.jpg" width="400" height="400"/>
+<img src="./img/dbz_feed_point.jpg" width="300" height="300"/>
+<img src="./img/dbz_feed_point_isolated.jpg" width="300" height="300"/>
 </p>
 
 
