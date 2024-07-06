@@ -30,9 +30,11 @@ where:
 
 Coaxial stab length: $C = (c * Vfcoax / 4f)$
 
-Wire extension length: $D = (c / 4f) * (1 - vfcoax)$ 
+Wire extension length: $D = (c / 4f) * (1 - Vfcoax)$ 
 
-and the speed of light in free space: $c = 299 792 458 m/s$
+The speed of light in free space: $c = 299 792 458 m/s$
+
+The velocity factor of used coax: $Vfcoax$, which in case of RG-58 is equal to 0.66 
 
 see section "Antenna Dimensions Detailed Calculations" for more details how DBZ antenna dimensions can be derived.
 
