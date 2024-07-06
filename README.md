@@ -22,6 +22,8 @@ With a classic dipole, the resistance value and the reactance (reactive componen
 
 ## Design details:
 
+DBZ antenna:
+
 <p align="center">
 <img src="./img/dbz_drawing.jpg" width="600" height="400"/>
 </p>
@@ -55,18 +57,17 @@ My station signal reports I receive are much more in line with signal levels of 
 
 ## Antenna Dimensions Detailed Calculations
 
+Total length of DBZ radiating element (coax stabs + wire extensions) is equal to the half dipol made of coper wire:
 
-
-
-
-
-The total length of radiating element (coax stabs + wire extensions) is equal to:
-
-    $L = lambda / 2$ 
+$L = lambda / 2$ 
     
-where lambda is calculated assuming velocity factor of the wire, which in case of cooper is practically equal to 1. 
+where $lambda$ is calculated assuming velocity factor of the wire, which in case of cooper is practically equal to 1. 
 
-The length of coax stabs:
+which gives:
+
+$L = c / 2 * f$
+
+The total length of the coax stabs:
 
      $2 * C = 2 * (lambda / 4)=lambda / 2$ 
 
@@ -76,10 +77,12 @@ From above the length of wire extension attached to each side of coax stab is:
 
 $D = (L - 2 * C) / 2$
 $D = (lambda(in wire) / 2 - lambda(in coax)/2)/2 = (1/4)*(lambda(in wire) - lambda(in coax)$
+
 where
+
 $lambda = (c * Vf) / f$
 
-$D = (c / 4f) * (1 - vfcoax)$ 
+$D = (c / 4f) * (1 - Vfcoax)$ 
 $C = (c * Vfcoax / 4f)$
 
 where c is a speed of light in free space, which is equal to 299 792 458 m/s  
