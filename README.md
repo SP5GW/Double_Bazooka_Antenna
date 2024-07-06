@@ -30,9 +30,9 @@ DBZ antenna:
 
 where:
 
-Coaxial stab length: $C = (c * Vfcoax / 4f)$
+Coaxial stab length: $C = (c * Vfcoax / (4 * f))$
 
-Wire extension length: $D = (c / 4f) * (1 - Vfcoax)$ 
+Wire extension length: $D = (c / (4 * f)) * (1 - Vfcoax)$ 
 
 The speed of light in free space: $c = 299 792 458 m/s$
 
@@ -41,8 +41,11 @@ The velocity factor of used coax: $Vfcoax$, which in case of RG-58 is equal to 0
 see section "Antenna Dimensions Detailed Calculations" for more details how DBZ antenna dimensions can be derived.
 
 
-Practical considerations:
+Design practical considerations:
+
 Avoid any coax that has a double shield with a foil wrapping. In my case I have used cheap RG-58. According to [1] using coax with larger diameter would lead to broader bandwidth - I have not experimented with this claim.
+
+
 
 ## Mounting options:
 
@@ -63,9 +66,9 @@ $L = lambda / 2$
     
 where $lambda$ is calculated assuming velocity factor of the wire, which in case of cooper is practically equal to 1. 
 
-which gives:
+this gives:
 
-$L = c / 2 * f$
+$L = c / (2 * f)$
 
 The total length of the coax stabs:
 
