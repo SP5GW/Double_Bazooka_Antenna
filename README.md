@@ -60,6 +60,18 @@ Do not cut or damage the center dielectric of the coax since it would weaken ant
 <img src="./img/dbz_feed_point_isolated.jpg" width="300" height="300"/>
 </p>
 
+At both ends of coaxial stab, solder the shield and the center conductor together and attach it to the coper wire. I have done it using wing screw:
+
+<p align="center">
+<img src="./img/dbz_wire_extensions.jpg" width="300" height="300"/>
+</p>
+
+Use extra cord to support your antenna:
+
+Ensure feed line does not put too much force on UC connector:
+
+
+
 
 ## Mounting options:
 
