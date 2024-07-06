@@ -26,7 +26,34 @@ With a classic dipole, the resistance value and the reactance (reactive componen
 <img src="./img/dbz_drawing.jpg" width="600" height="400"/>
 </p>
 
+where:
+
+$D = (c / 4f) * (1 - vfcoax)$ 
+$C = (c * Vfcoax / 4f)$
+
+see section "Antenna Dimensions Detailed Calculations" for more details how DBZ antenna dimensions can be derived.
+
+
+Practical considerations:
 Avoid any coax that has a double shield with a foil wrapping. In my case I have used cheap RG-58. According to [1] using coax with larger diameter would lead to broader bandwidth - I have not experimented with this claim.
+
+## Mounting options:
+
+The Double Bazooka, like any dipole, can be set up either horizontally or as an 'inverted vee' antenna. In the case of stretched suspension, the directional diagram of the antenna has clear nulls in the direction of the wire. This can be used if the direction of the antenna can be freely chosen, for example to suppress QRM. When mounted as an 'inverted vee', the antenna has an omnidirectional characteristic. As with all antennas, the feed point should be mounted as high as possible [2].
+
+Be aware that placing feedline in close proximity parallel to radiating element(s) will significantly increase SWR measured at the transceiver!
+
+## Summary
+I am super happy with performance of DBZ antenna mounted in inverted vee configuration (feed point at about 3m above the ground). I deployed it at my QTH to cover law signal stations especially from Australia, South East Asia and South America, which I received with signal strength below -7dB (wsjtx) using my original setup based on endfed antenna. Now on 17m band for which I built my first DBZ I am able to successfuly make a FT8 QSL when station is received at -11dB and lower! 
+My station signal reports I receive are much more in line with signal levels of my correspondents as well! 
+
+
+## Antenna Dimensions Detailed Calculations
+
+
+
+
+
 
 The total length of radiating element (coax stabs + wire extensions) is equal to:
 
@@ -51,16 +78,6 @@ $D = (c / 4f) * (1 - vfcoax)$
 $C = (c * Vfcoax / 4f)$
 
 where c is a speed of light in free space, which is equal to 299 792 458 m/s  
-
-## Mounting options:
-
-The Double Bazooka, like any dipole, can be set up either horizontally or as an 'inverted vee' antenna. In the case of stretched suspension, the directional diagram of the antenna has clear nulls in the direction of the wire. This can be used if the direction of the antenna can be freely chosen, for example to suppress QRM. When mounted as an 'inverted vee', the antenna has an omnidirectional characteristic. As with all antennas, the feed point should be mounted as high as possible [2].
-
-Be aware that placing feedline in close proximity parallel to radiating element(s) will significantly increase SWR measured at the transceiver!
-
-## Summary
-I am super happy with performance of DBZ antenna mounted in inverted vee configuration (feed point at about 3m above the ground). I deployed it at my QTH to cover law signal stations especially from Australia, South East Asia and South America, which I received with signal strength below -7dB (wsjtx) using my original setup based on endfed antenna. Now on 17m band for which I built my first DBZ I am able to successfuly make a FT8 QSL when station is received at -11dB and lower! 
-My station signal reports I receive are much more in line with signal levels of my correspondents as well! 
 
 ## Sources
 [1] Antenna description and calculator: https://0x9900.com/building-a-double-bazooka-antenna/
