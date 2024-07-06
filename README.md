@@ -28,10 +28,9 @@ With a classic dipole, the resistance value and the reactance (reactive componen
 
 where:
 
-$D = (c / 4f) * (1 - vfcoax)$ 
-$C = (c * Vfcoax / 4f)$
-
-and $c$ is a speed of light in free space, which is equal to 299 792 458 m/s
+Coaxial stab length: $C = (c * Vfcoax / 4f)$
+Wire extension length: $D = (c / 4f) * (1 - vfcoax)$ 
+and the speed of light in free space: $c = 299 792 458 m/s$
 
 see section "Antenna Dimensions Detailed Calculations" for more details how DBZ antenna dimensions can be derived.
 
