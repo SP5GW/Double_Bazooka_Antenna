@@ -72,7 +72,7 @@ $L = c / (2 * f)$
 
 The total length of the coax stabs:
 
-     $2 * C = 2 * (lambda / 4)=lambda / 2$ 
+$2 * C = 2 * (lambda / 4)=lambda / 2$ 
 
 where lambda is calculated assuming velocity factor of the coax, which in case of RG-58 is equal to 0.66 (66%)
 
@@ -85,8 +85,8 @@ where
 
 $lambda = (c * Vf) / f$
 
-$D = (c / 4f) * (1 - Vfcoax)$ 
-$C = (c * Vfcoax / 4f)$
+$D = (c / (4 * f)) * (1 - Vfcoax)$ 
+$C = (c * Vfcoax / (4 * f))$
 
 where c is a speed of light in free space, which is equal to 299 792 458 m/s  
 
