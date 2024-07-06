@@ -23,14 +23,22 @@ With a classic dipole, the resistance value and the reactance (reactive componen
 ## Design details:
 
 <p align="center">
-<img src="./img/dbz_drawing.jpg" width="300" height="400"/>
+<img src="./img/dbz_drawing.jpg" width="600" height="400"/>
 </p>
 
 Avoid any coax that has a double shield with a foil wrapping. In my case I have used cheap RG-58. According to [1] using coax with larger diameter would lead to broader bandwidth - I have not experimented with this claim.
 
-The total length of radiating element (coax stabs + wire extensions) is equal to $L = lambda/2$ where lambda is calculated assuming velocity factor of the wire, which in case of cooper is practically equal to 1. 
+The total length of radiating element (coax stabs + wire extensions) is equal to:
 
-The length of coax stabs $2*C = 2*(lambda/4)=lambda/2$ where lambda is calculated assuming velocity factor of the coax, which in case of RG-58 is equal to 0.66 (66%)
+    $L = lambda/2$ 
+    
+where lambda is calculated assuming velocity factor of the wire, which in case of cooper is practically equal to 1. 
+
+The length of coax stabs:
+
+     $2*C = 2*(lambda/4)=lambda/2$ 
+
+where lambda is calculated assuming velocity factor of the coax, which in case of RG-58 is equal to 0.66 (66%)
 
 From above the length of wire extension attached to each side of coax stab is:
 
