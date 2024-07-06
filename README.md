@@ -30,19 +30,19 @@ Avoid any coax that has a double shield with a foil wrapping. In my case I have 
 
 The total length of radiating element (coax stabs + wire extensions) is equal to:
 
-    $L = lambda/2$ 
+    $L = lambda / 2$ 
     
 where lambda is calculated assuming velocity factor of the wire, which in case of cooper is practically equal to 1. 
 
 The length of coax stabs:
 
-     $2*C = 2*(lambda/4)=lambda/2$ 
+     $2 * C = 2 * (lambda / 4)=lambda / 2$ 
 
 where lambda is calculated assuming velocity factor of the coax, which in case of RG-58 is equal to 0.66 (66%)
 
 From above the length of wire extension attached to each side of coax stab is:
 
-$D = (L - 2*C) / 2$
+$D = (L - 2 * C) / 2$
 $D = (lambda(in wire) / 2 - lambda(in coax)/2)/2 = (1/4)*(lambda(in wire) - lambda(in coax)$
 where
 $lambda = (c * Vf) / f$
