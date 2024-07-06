@@ -86,6 +86,9 @@ where
 $lambda = (c * Vf) / f$
 
 $D = (c / (4 * f)) * (1 - Vfcoax)$ 
+
+and 
+
 $C = (c * Vfcoax / (4 * f))$
 
 where c is a speed of light in free space, which is equal to 299 792 458 m/s  
