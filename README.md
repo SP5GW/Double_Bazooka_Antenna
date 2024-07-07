@@ -93,11 +93,18 @@ Below measurements were performed for DBZ designed for 17m ham band (18.068MHz=1
 Unfortunately I do not have SWR measurements directly at the antenna feed point, instead here are the measurements made at entry to the transceiver, which is connected to the DBZ using about 10m long RG-58 feed line:
 
 <p align="center">
-<img src="./meas/DBZ17m_SWR.png" width="300" height="300"/>
-<img src="./meas/DBZ17m_Smith.png" width="300" height="300"/>
+<img src="./meas/DBZ17m_SWR.png" width="400" height="400"/>
+<img src="./meas/DBZ17m_Smith.png" width="400" height="400"/>
 </p>
 
-As it can be seen SWR in entire 17m band is well below 1:3. SWR below 2 is achieved over the bandwith of 18.72MHz - 17.58MHz = 1.14MHz when atenna is tuneed for center frequency of 18.1MHz.
+As it can be seen SWR in entire 17m band is well below 1:3. 
+
+When atenna is tuned for center frequency of 18.1MHz, the SWR below 2 is achieved within 1.14MHz bandwith (from 18.72MHz to 17.58MHz).
+
+Examples of QSOs, which were impossible to make using endfed antenna tuned with Yaesu FT-710 built in tunner and are now fairly easy to make using DBZ:
+
+
+
 
 ## Summary
 I am super happy with performance of DBZ antenna mounted in inverted vee configuration (feed point at about 3m above the ground). I deployed it at my QTH to cover law signal stations especially from Australia, South East Asia and South America, which I received with signal strength below -7dB (wsjtx) using my original setup based on endfed antenna. Now on 17m band for which I built my first DBZ I am able to successfuly make a FT8 QSL when station is received at -11dB and lower! 
