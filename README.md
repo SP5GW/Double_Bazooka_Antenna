@@ -18,7 +18,7 @@ In my case I decided to build DBZ antenna only because of its simplistic design 
 
 
 ## Principles of operation:
-With a classic dipole, the resistance value and the reactance (reactive component) at the feed point diverge rapidly with increasing frequency - the SWR deteriorates [2]. Use of coaxial cable as part of radiating elements in the double bazooka results in a lower reactance at the feadpoint near antennas resonant frequency [6]. Lower reactance translates to a wider range of frequencies where the antenna can maintain a good match with the feedline, thus rendering it more braodband. It shall be noted however that the extend to which double bazooka is more bradband then standard dipol has been heavily debated over the years [5]. 
+With a classic dipole, the resistance value and the reactance at the feed point diverge rapidly with increasing frequency - the SWR deteriorates [2]. Use of coaxial cable as part of radiating elements in the double bazooka results in a lower reactance at the feadpoint near antennas resonant frequency [6]. Lower reactance translates to a wider range of frequencies where the antenna can maintain a good match with the feedline, thus rendering it more braodband. It shall be noted however that the extend to which double bazooka is more bradband then standard dipol has been heavily debated over the years [5]. 
 
 ## Design details:
 
@@ -44,7 +44,9 @@ Design practical considerations:
 
 Avoid any coax that has a double shield with a foil wrapping. In my case I have used cheap RG-58. According to [1] using coax with larger diameter would lead to broader bandwidth - I have not experimented with this claim.
 
-Calculate wire and coax dimensions using calculator from [1] or attached xls calculator and then cut material accordingly. In case of wire extensions remember to add a few centemeters extra.
+Calculate wire and coax dimensions using calculator from [1] or attached xls calculator and then cut material accordingly. In case of wire extensions remember to add a few centemeters extra so you have possibility to cut the antenna during tunning.
+
+During tunning process you simply cut wire extenders equally at both ends in steps of about 2cm until your setup starts to resonate near desired frequency. As you shorten the radiating element the resonant frequency increases. If you cut too much you can still fix it by extending the antenna, but this is more difficult then cutting it :).
 
 Element dimentions for selected ham bands are given below:
 
