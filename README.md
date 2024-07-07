@@ -97,6 +97,11 @@ Unfortunately I do not have SWR measurements directly at the antenna feed point,
 <img src="./meas/DBZ17m_Smith.png" width="400" height="400"/>
 </p>
 
+<p align="center">
+<img src="./meas/DBZ17m_SWR_detailed.png" width="400" height="400"/>
+<img src="./meas/DBZ17m_Smith_detailed.png" width="400" height="400"/>
+</p>
+
 As it can be seen SWR in entire 17m band is well below 1:3. 
 
 When atenna is tuned for center frequency of 18.1MHz, the SWR below 2 is achieved within 1.14MHz bandwith (from 18.72MHz to 17.58MHz).
