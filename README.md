@@ -75,10 +75,15 @@ At both ends of coaxial stab, solder the shield and the center conductor togethe
 
 Use extra cord to support your antenna:
 
+<p align="center">
+<img src="./img/dbz_cord_support.jpg" width="300" height="300"/>
+</p>
+
 Ensure feed line does not put too much force on UC connector:
 
-
-
+<p align="center">
+<img src="./img/dbz_feed_point_support.jpg" width="300" height="300"/>
+</p>
 
 ## Mounting options:
 
