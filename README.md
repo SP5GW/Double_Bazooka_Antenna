@@ -40,10 +40,17 @@ The velocity factor of used coax: $Vfcoax$, which in case of RG-58 is equal to 0
 
 see section "Antenna Dimensions Detailed Calculations" for more details how DBZ antenna dimensions can be derived.
 
-
 Design practical considerations:
 
 Avoid any coax that has a double shield with a foil wrapping. In my case I have used cheap RG-58. According to [1] using coax with larger diameter would lead to broader bandwidth - I have not experimented with this claim.
+
+Calculate wire and coax dimensions using calculator from [1] or attached xls calculator and then cut material accordingly. In case of wire extensions remember to add a few centemeters extra.
+
+Elements dimentions for selected ham bands are given below:
+
+<p align="center">
+<img src="./img/dbz_dimensions.jpg" width="300" height="300"/>
+</p>
 
 Use insulation remover when removing coax outer jacket (about 4 cm) so shield is left in tact. 
 
