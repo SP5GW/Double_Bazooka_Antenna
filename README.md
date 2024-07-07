@@ -157,7 +157,7 @@ where c is a speed of light in free space, which is equal to 299 792 458 m/s
 ## Sources
 [1] Antenna description and calculator: https://0x9900.com/building-a-double-bazooka-antenna/
 
-[2] Practical design description: https://www.wimo.com/en/eantenna-bazooka-antenna
+[2] Informative product description: https://www.wimo.com/en/eantenna-bazooka-antenna
 
 [3] Practical design description: https://webclass.org/k5ijb/antennas/Bazooka-dipole-antenna.htm
 
@@ -166,3 +166,5 @@ where c is a speed of light in free space, which is equal to 299 792 458 m/s
 [5] The Broadband Double-Bazooka Antenna — How Broad Is It, Walter Maxwell W2DU
 
 [6] The Story of the Broadband Dipole, Dave Leeson W6NL
+
+[7] ARLL Handbook - Antenna chapter.
