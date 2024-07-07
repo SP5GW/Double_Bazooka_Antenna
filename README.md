@@ -109,8 +109,8 @@ When atenna is tuned for center frequency of 18.1MHz, the SWR below 2 is achieve
 Examples of QSOs, which were impossible to make using endfed antenna tuned with Yaesu FT-710 built in tunner and are now fairly easy to make using DBZ:
 
 <p align="center">
-<img src="./meas/VK2LAW_lowsig.jpg" width="150" height="100"/>
-<img src="./meas/JA2KGT_lowsig.jpg" width="150" height="100"/>
+<img src="./meas/VK2LAW_lowsig.jpg" width="250" height="200"/>
+<img src="./meas/JA2KGT_lowsig.jpg" width="250" height="200"/>
 </p>
 
 
