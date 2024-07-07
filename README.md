@@ -82,9 +82,22 @@ Ensure feed line does not put too much force on UC connector:
 
 ## Mounting options:
 
-The Double Bazooka, like any dipole, can be set up either horizontally or as an 'inverted vee' antenna. In the case of stretched suspension, the directional diagram of the antenna has clear nulls in the direction of the wire. This can be used if the direction of the antenna can be freely chosen, for example to suppress QRM. When mounted as an 'inverted vee', the antenna has an omnidirectional characteristic. As with all antennas, the feed point should be mounted as high as possible [2].
+The Double Bazooka, like any dipole, can be set up either horizontally or as an 'inverted vee' antenna (among other options). In the case of stretched suspension, the directional diagram of the antenna has clear nulls in the direction of the wire. This can be used if the direction of the antenna can be freely chosen, for example to suppress QRM. When mounted as an 'inverted vee', the antenna has an omnidirectional characteristic. As with all antennas, the feed point should be mounted as high as possible [2].
 
 Be aware that placing feedline in close proximity parallel to radiating element(s) will significantly increase SWR measured at the transceiver!
+
+## Antenna Measurements
+
+Below measurements were performed for DBZ designed for 17m ham band (18.068MHz=18.168MHz).
+
+Unfortunately I do not have SWR measurements directly at the antenna feed point, instead here are the measurements made at entry to the transceiver, which is connected to the DBZ using about 10m long RG-58 feed line:
+
+<p align="center">
+<img src="./meas/DBZ17m_SWR.png" width="300" height="300"/>
+<img src="./meas/DBZ17m_Smith.png" width="300" height="300"/>
+</p>
+
+As it can be seen SWR in entire 17m band is well below 1:3. SWR below 2 is achieved over the bandwith of 18.72MHz - 17.58MHz = 1.14MHz when atenna is tuneed for center frequency of 18.1MHz.
 
 ## Summary
 I am super happy with performance of DBZ antenna mounted in inverted vee configuration (feed point at about 3m above the ground). I deployed it at my QTH to cover law signal stations especially from Australia, South East Asia and South America, which I received with signal strength below -7dB (wsjtx) using my original setup based on endfed antenna. Now on 17m band for which I built my first DBZ I am able to successfuly make a FT8 QSL when station is received at -11dB and lower! 
