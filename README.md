@@ -6,7 +6,7 @@ A Double Bazooka Antenna (DBZ) sometimes referred as coaxial dipole is a broad-b
 ## Advantages of Double Bazooka Antenna:
 
 - design simplicity (i.e. no coils or transformers are required to match its impedance to 50ohm)
-- about 14% larger then conventional dipols operational bandwidth possible to achieve without antenna tuner [1][5]
+- about 14% larger then conventional dipols operational bandwidth possible to achieve without antenna tuner [1][5] - heavily contested claim.
 - less noise in received signal - I could not confirm this in real live deployment
 - cost effective - you just need a few meters of coax you probably already have in your shack 
 
