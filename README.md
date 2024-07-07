@@ -46,10 +46,10 @@ Avoid any coax that has a double shield with a foil wrapping. In my case I have 
 
 Calculate wire and coax dimensions using calculator from [1] or attached xls calculator and then cut material accordingly. In case of wire extensions remember to add a few centemeters extra.
 
-Elements dimentions for selected ham bands are given below:
+Element dimentions for selected ham bands are given below:
 
 <p align="center">
-<img src="./img/dbz_dimensions.jpg" width="300" height="300"/>
+<img src="./img/dbz_dimensions.jpg" width="400" height="400"/>
 </p>
 
 Use insulation remover when removing coax outer jacket (about 4 cm) so shield is left in tact. 
