@@ -44,9 +44,7 @@ Design practical considerations:
 
 Avoid any coax that has a double shield with a foil wrapping. In my case I have used cheap RG-58. According to [1] using coax with larger diameter would lead to broader bandwidth - I have not experimented with this claim.
 
-Calculate wire and coax dimensions using calculator from [1] or attached xls calculator and then cut material accordingly. In case of wire extensions remember to add a few centemeters extra so you have possibility to cut the antenna during tunning.
-
-During tunning process you simply cut wire extenders equally at both ends in steps of about 2cm until your setup starts to resonate near desired frequency. As you shorten the radiating element the resonant frequency increases. If you cut too much you can still fix it by extending the antenna, but this is more difficult then cutting it :).
+Calculate wire and coax dimensions using calculator from [1] or attached xls calculator and then cut material accordingly. In case of wire extensions remember to add a few centemeters extra so you have possibility to cut the antenna during tunning. Also add 2cm to calculated coax stab length to accomodate for the extra length required to mount connectors required to attach wire extenders.
 
 Element dimentions for selected ham bands are given below:
 
@@ -86,6 +84,10 @@ Ensure feed line does not put too much force on UC connector:
 <p align="center">
 <img src="./img/dbz_feed_point_support.jpg" width="300" height="300"/>
 </p>
+
+During tunning process you simply cut wire extenders equally at both ends in steps of about 2cm until your setup starts to resonate near desired frequency. As you shorten the radiating element the resonant frequency increases. If you cut too much you can still fix it by extending the antenna, but this is more difficult then cutting it :).
+
+During tuning try to connect antenna analyser at the feed point. If you connect it at the end of feed line you might get better then actual SWR readings since reflected power will be attenuated by the feedline itself.
 
 ## Mounting options:
 
